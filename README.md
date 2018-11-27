@@ -27,6 +27,7 @@ The repositroy includes a design about a moter driver curcuit, control programs,
 <p align="center"> 
 <img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/keedox-dc30a-1230-12v-dc-2-phase-cpu-cooling-car-brushless-water-pump-waterproof-submersible_3224360.jpg"  title="pump pic" width="320">
 </p>
+
 ### datasheet 
 We used this [DC pump](https://www.amazon.co.jp/dc12v-%E6%B0%B4%E4%B8%AD%E3%83%9D%E3%83%B3%E3%83%97-DC30A-1230-%E3%83%8F%E3%82%A4%E3%83%91%E3%83%AF%E3%83%BC-%E7%9B%B4%E6%B5%81DC5V%EF%BD%9EDC12V/dp/B07BGHC6YR/ref=sr_1_1_sspa?s=diy&ie=UTF8&qid=1543290060&sr=1-1-spons&keywords=dc30a1230&psc=1).
 ### features
@@ -50,11 +51,11 @@ We used this [DC pump](https://www.amazon.co.jp/dc12v-%E6%B0%B4%E4%B8%AD%E3%83%9
 <p align="center"> 
 <img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/%E3%83%A2%E3%83%BC%E3%82%BF%E5%88%B6%E5%BE%A1%E5%9B%9E%E8%B7%AF.png"  title="moter driver circuit">
 </p>
-### electronic component
 
+### electronic component
 * Breadboard
 * Photo coupler:EL817
-* Nー-channel MOSFET:IRF840
+* N-channel MOSFET:IRF840
 * Resistors:150 ohm, 1k ohm, 1k ohm
 * wire
 
