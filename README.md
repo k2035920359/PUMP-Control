@@ -4,12 +4,6 @@ The repositroy includes a design about a moter driver curcuit, control programs,
 <div style="; position: relative;top:0; left: 100px;"></div>
 <img src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/pumpaction.gif"  width="320">
 
-## Main Features
-* Strong Reduction of its SD memory occupation with `difference extraction` Technology.
-* Reporting a daily bulletin through on Gmail.
-* Supervise the [main program](https://github.com/ShuDiamonds/Security-camera/blob/master/demo/demo2.py) by [reporting.py](https://github.com/ShuDiamonds/Security-camera/blob/master/demo/reporting.py).
-* Delete one week ago camera data automatically.
-
 ## Requirement  
 * Raspberry pi 3  
 * ubuntu Mate16.04  
