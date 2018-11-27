@@ -1,6 +1,6 @@
 # PUMP-Control
 This is a project to control a DC pump with PWM on Raspberry pi.
-The repositroy includes a design about a moter driver curcuit, control programs, pump.
+The repositroy includes a design about a motor driver curcuit, control programs, pump.
 <div style="; position: relative;top:0; left: 100px;"></div>
 <img src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/pumpaction.gif"  width="320">
 
@@ -40,10 +40,10 @@ We used this [DC pump](https://www.amazon.co.jp/dc12v-%E6%B0%B4%E4%B8%AD%E3%83%9
 
 
 
-## Moter driver circuit
+## Motor driver circuit
 ### circuit diagram
 <p align="center"> 
-<img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/%E3%83%A2%E3%83%BC%E3%82%BF%E5%88%B6%E5%BE%A1%E5%9B%9E%E8%B7%AF.png"  title="moter driver circuit">
+<img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/%E3%83%A2%E3%83%BC%E3%82%BF%E5%88%B6%E5%BE%A1%E5%9B%9E%E8%B7%AF.png"  title="Motor driver circuit">
 </p>
 
 ### electronic component
@@ -55,7 +55,7 @@ We used this [DC pump](https://www.amazon.co.jp/dc12v-%E6%B0%B4%E4%B8%AD%E3%83%9
 
 ### wiring to breadboard
 <p align="center"> 
-<img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/bredboard2.jpg"  title="moter driver bredboard" width="320">
+<img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/bredboard2.jpg"  title="Motor driver bredboard" width="320">
 </p>
 
 <p align="center"> 
