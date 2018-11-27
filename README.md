@@ -20,7 +20,7 @@ The repositroy includes a design about a moter driver curcuit, control programs,
 
 ## System Overview
 <p align="center"> 
-<img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%A6%82%E8%A6%81%E5%9B%B3.jpg"  title="system overview">
+<img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%A6%82%E8%A6%81%E5%9B%B3.jpg"  title="system overview" width="640">
 </p>
 
 ## Pump
@@ -79,6 +79,9 @@ And do not forget to enable i2c of raspi
 ```bash
 $ python3 flowdemo.py
 ```
+
+### memo
+we didn't use PWM of wiringpi, because it conflict the program using PCF8591. so that we made cheap software PWM program.
 
 
 ## Licence
