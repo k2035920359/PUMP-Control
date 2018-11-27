@@ -10,6 +10,14 @@ The repositroy includes a design about a moter driver curcuit, control programs,
 * Supervise the [main program](https://github.com/ShuDiamonds/Security-camera/blob/master/demo/demo2.py) by [reporting.py](https://github.com/ShuDiamonds/Security-camera/blob/master/demo/reporting.py).
 * Delete one week ago camera data automatically.
 
+## Requirement  
+* Raspberry pi 3  
+* ubuntu Mate16.04  
+* Python 3.x  
+* wiringpi
+* [DC pump](https://www.amazon.co.jp/dc12v-%E6%B0%B4%E4%B8%AD%E3%83%9D%E3%83%B3%E3%83%97-DC30A-1230-%E3%83%8F%E3%82%A4%E3%83%91%E3%83%AF%E3%83%BC-%E7%9B%B4%E6%B5%81DC5V%EF%BD%9EDC12V/dp/B07BGHC6YR/ref=sr_1_1_sspa?s=diy&ie=UTF8&qid=1543290060&sr=1-1-spons&keywords=dc30a1230&psc=1)
+
+
 ## System Overview
 <p align="center"> 
 <img  src="https://github.com/ShuDiamonds/Security-camera/blob/master/image/Securitycamera_SystemOverview.svg.png"  title="system overview">
@@ -19,12 +27,24 @@ The repositroy includes a design about a moter driver curcuit, control programs,
 <p align="center"> 
 <img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/keedox-dc30a-1230-12v-dc-2-phase-cpu-cooling-car-brushless-water-pump-waterproof-submersible_3224360.jpg"  title="pump pic">
 </p>
+### datasheet 
+We used this [DC pump](https://www.amazon.co.jp/dc12v-%E6%B0%B4%E4%B8%AD%E3%83%9D%E3%83%B3%E3%83%97-DC30A-1230-%E3%83%8F%E3%82%A4%E3%83%91%E3%83%AF%E3%83%BC-%E7%9B%B4%E6%B5%81DC5V%EF%BD%9EDC12V/dp/B07BGHC6YR/ref=sr_1_1_sspa?s=diy&ie=UTF8&qid=1543290060&sr=1-1-spons&keywords=dc30a1230&psc=1)
+### features
+* Model number:DC30A-1230
+* Voltage:DC5V-12V
+* Rated current:0.35A
+* Max Volumetric flow rate:4L/min
+* Rated power consumption:4.2W
+
+
+
 
 ## Moter driver circuit
 ### circuit diagram
 <p align="center"> 
 <img  src="https://github.com/ShuDiamonds/PUMP-Control/blob/master/pictures/%E3%83%A2%E3%83%BC%E3%82%BF%E5%88%B6%E5%BE%A1%E5%9B%9E%E8%B7%AF.png"  title="moter driver circuit">
 </p>
+### electronic component
 
 ### wiring to breadboard
 <p align="center"> 
@@ -36,15 +56,7 @@ The repositroy includes a design about a moter driver curcuit, control programs,
 </p>
 
 
-## Requirement  
-* Raspberry pi 3  
-* ubuntu16.04  
-* Python 3.x  
-* Opencv
-* Web Camera x2
- <p align="center"> 
-<img  src="https://github.com/ShuDiamonds/Security-camera/blob/master/image/IMG_20180927_215417.jpg"  title="setting" width="480">
-</p>
+
  
 ## Setting
 ###  demo2.py property
@@ -80,7 +92,6 @@ $ python3 reporting.py
 
 ## Related Articles
 * [embedded](https://github.com/topics/shu-embedded-systems)
-* [Machine Learning data](https://github.com/topics/shu-machine-learning-data)
 
 ## Author
   [ShuDiamonds](https://github.com/ShuDiamonds)
